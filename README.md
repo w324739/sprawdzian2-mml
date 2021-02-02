@@ -1,17 +1,15 @@
 Jest to kod programu wypisującego 10 kolejnych liczb pierwszych
-(patrz definicja: https://pl.wikipedia.org/wiki/Liczba_pierwsza).
+[patrz definicja](https://pl.wikipedia.org/wiki/Liczba_pierwsza)
 
 Na program składają się trzy pliki:
-# prime.c: oblicza kolejne liczby pierwsze
-# main.c: wypisuje kolejne liczby pierwsze
-# Makefile: plik do kompilowania całego programu
++ __prime.c__: oblicza kolejne liczby pierwsze
++ __main.c__: wypisuje kolejne liczby pierwsze
++ __Makefile__: plik do kompilowania całego programu
 
 Kompilacja programu
 
-make
+*make*
 
 Uruchomienie programu w konsoli
 
-./pierwsze
-
-
+*./pierwsze*
