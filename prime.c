@@ -1,7 +1,7 @@
 
 int is_prime(int p)
 {
-    for(int i = 2; i < p/2; i++)
+    for(int i = 2; i <= p/2; i++)
     {
         if (p % i == 0)
             return 0;
@@ -15,7 +15,7 @@ int next_prime(int i)
     while (!is_prime(next))
     {
         next += 1;
-        // printf("TestujÄ™ %i\n", next);
+        // printf("Testujê %i\n", next);
     }
     return next;
 }
